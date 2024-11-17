@@ -56,9 +56,12 @@ public class Material {
     this.cost = cost;
   }
 
+  /**
+   * returns a string with the name, ID, number required, and cost of the material
+   */
   @Override
   public String toString() {
-    return "ID=" + materialId + ", materialName=" + materialName + ", numRequired=" + numRequired
-        + ", cost=" + cost;
+    return "ID = " + materialId + ", material name = " + materialName + ", number required = " + numRequired
+        + ", cost = " + cost;
   }
 }

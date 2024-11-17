@@ -27,8 +27,11 @@ public class Category {
     this.categoryName = categoryName;
   }
 
+  /**
+   * returns the name and ID of the category
+   */
   @Override
   public String toString() {
-    return "ID=" + categoryId + ", categoryName=" + categoryName;
+    return "ID = " + categoryId + ", Category name = " + categoryName;
   }
 }

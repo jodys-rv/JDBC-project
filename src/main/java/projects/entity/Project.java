@@ -83,35 +83,35 @@ public class Project {
     return categories;
   }
 
+  /**
+   * returns all project details
+   */
   @Override
   public String toString() {
     String result = "";
     
-    result += "\n   ID=" + projectId;
-    result += "\n   name=" + projectName;
-    result += "\n   estimatedHours=" + estimatedHours;
-    result += "\n   actualHours=" + actualHours;
-    result += "\n   difficulty=" + difficulty;
-    result += "\n   notes=" + notes;
+    result += "\n   ID =               " + projectId;
+    result += "\n   Name =             " + projectName;
+    result += "\n   Estimated hours =  " + estimatedHours;
+    result += "\n   Actual hours =     " + actualHours;
+    result += "\n   Difficulty =       " + difficulty;
+    result += "\n   Notes =            " + notes;
     
-    result += "\n   Materials:";
+    result += "\n   Materials: ";
     
     for(Material material : materials) {
       result += "\n      " + material;
     }
-    
     result += "\n   Steps:";
     
     for(Step step : steps) {
       result += "\n      " + step;
     }
-    
     result += "\n   Categories:";
     
     for(Category category : categories) {
       result += "\n      " + category;
     }
-    
     return result;
   }
 }

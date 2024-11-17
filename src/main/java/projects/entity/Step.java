@@ -45,8 +45,11 @@ public class Step {
     this.stepOrder = stepOrder;
   }
 
+  /**
+   * returns the ID and text of the step
+   */
   @Override
   public String toString() {
-    return "ID=" + stepId + ", stepText=" + stepText;
+    return "ID = " + stepId + ": " + stepText;
   }
 }
