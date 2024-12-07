@@ -1,1 +1,1 @@
-"# week07" 
+THis is a JDBC project that creates a database schema and allows user to add, alter, and delete PROJECTS or components of projects (materials, steps, difficulty, etc). JDBC, MySQL. Includes Entity Relationship Diagram.
